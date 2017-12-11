@@ -34,7 +34,7 @@ function add(){
 		check.addEventListener('click', function(){
 			paragraph.classList.toggle('strike-out')
 		})
-
+		/*creas un evento*/
 		trash.addEventListener('click', function(){
 			cont.removeChild(newComments);
 		})
